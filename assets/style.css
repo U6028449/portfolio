@@ -1,0 +1,86 @@
+
+
+body {
+  background-color: red;
+}
+
+.header {
+  font-size: xx-large;
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+  position: static ;
+  background-color: rgba(201, 11, 11, 0.37);
+  border: solid 25px;
+  padding: 25px;
+}
+  
+.headernav {
+  float: right;
+  border: inlet ;
+margin-top: -20px;
+padding: 5px;
+}
+
+.headernav :hover {
+  background-color: black;
+  color: red ;
+}
+
+h1 {
+  font-size: xx-large;
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+  position: static ;
+}
+
+.content {
+  margin: 32px;
+}
+
+.hero {
+  height: auto;
+  width: auto;
+  margin-bottom: 25px;
+}
+.section-header {
+font-size: 3.5rem;
+font-weight: bold;
+margin: 16px 0px;
+}
+
+.about_content {
+  display: flex;
+}
+
+.projects_content {
+  display: flex;
+}
+
+.contact_content {
+  display: flex;
+}
+
+.about_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 16px;
+  font-size: 1.25rem;
+}
+
+.projects_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 16px;
+  font-size: 1.25rem;
+}
+
+.contact_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 16px;
+  font-size: 1.25rem;
+}
+
+.nav {
+ display: inline-block;}
