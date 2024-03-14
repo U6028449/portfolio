@@ -14,10 +14,11 @@ body {
 }
   
 .headernav {
-  float: right;
-  border: inlet ;
-margin-top: -20px;
-padding: 5px;
+ float: right;
+ flex: auto;
+ 
+
+
 }
 
 .headernav :hover {
@@ -84,3 +85,10 @@ margin: 16px 0px;
 
 .nav {
  display: inline-block;}
+
+ @media screen and (max-width: 768px) {
+  body,
+  nav {
+    flex-direction: column;
+  }
+}
